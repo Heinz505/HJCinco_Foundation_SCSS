@@ -8,3 +8,97 @@
     text-transform: uppercase;
     background-color: #FFBA00;
 }
+
+.top-bar {
+    background-color: #fff;
+}
+
+.top-bar-left ul.menu li {
+    padding: 0 10px;
+}
+
+.menu {
+    align-items: center;
+}
+
+.top-bar-left ul.menu {
+    background-color: #fff;
+}
+
+.menu-icon {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-image: url('img/Group 3.svg'); /* Add your hamburger icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.get-started-container {
+    display: flex;
+    /* Flexbox for alignment */
+    gap: 10px;
+    /* Add space between button and icon */
+    width: auto;
+}
+
+.get-started {
+    display: inline-block;
+    width: 201px;
+    height: 46px;
+    border-radius: 35px;
+    font-family: "Roboto Mono", monospace;
+
+    background-color: rgba(34, 36, 48, 1);
+    color: white;
+    /* Text color */
+    text-align: center;
+    /* Center text */
+    line-height: 46px;
+    /* Vertically center text */
+    text-decoration: none;
+    /* Remove underline */
+
+}
+
+.cart-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    /* Space between button and icon */
+}
+
+.cart-image {
+    margin-top: 5px;
+    height: 34px;
+    /* Match button height */
+    width: auto;
+    /* Keep proportion */
+}
+
+.cart-counter {
+    position: absolute;
+    top: -4px;
+    right: -9px;
+    background-color: rgb(0, 0, 0);
+    /* Background color for the counter */
+    color: white;
+    /* Text color for counter */
+    border-radius: 50%;
+    /* Make it circular */
+    padding: 1px 8.5px;
+    /* Padding around the number */
+    font-size: 15px;
+    /* Font size */
+}
+
+.hide-for-medium .cart-icon{
+    margin: 10px 0;
+}
+
+.hide-for-medium .get-started{
+    line-height: 24px;
+}
