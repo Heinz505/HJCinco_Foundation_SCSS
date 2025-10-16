@@ -222,3 +222,52 @@
     display: block;
     margin-left: auto;
 }
+
+
+@media screen and (max-width: 1400px) {
+    .hero-section .cell.medium-4:last-child img{
+        right: 5vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .hero-section .cell.medium-4:last-child img{
+        right: 3vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-section .cell.medium-4:last-child img{
+        right: 1vw;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .hero-section .cell.medium-4:last-child {
+        position: static;
+    }
+
+    .hero-section .cell.medium-4:last-child img {
+        right: 2vw;
+    }
+
+    .hero-section .grid-x {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hero-section .grid-x {
+        flex-direction: column;
+    }
+
+    .hero-section .hero-bg-image {
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+
+
