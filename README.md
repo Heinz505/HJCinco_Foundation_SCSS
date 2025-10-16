@@ -55,12 +55,12 @@ To run the website, you can simply open the index.html file in your browser.
 ## Folder Structure
 
 /HJCinco_Foundation_SCSS
-│
-├── /css             # Compiled CSS files
-├── /scss            # SCSS source files
-│   └── app.scss     # Main SCSS file
-│
-└── index.html       # Main HTML file
+│ 
+├── /css             # Compiled CSS files 
+├── /scss            # SCSS source files 
+│   └── app.scss     # Main SCSS file 
+│ 
+└── index.html       # Main HTML file 
 
 ## Contributing
 
