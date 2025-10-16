@@ -1,4 +1,4 @@
-# HJCinco Foundation SCSS Website
+## HJCinco Foundation SCSS Website
 
 Welcome to the HJCinco Foundation SCSS project! This repository contains a simple website built using the Foundation framework and SCSS.
 
@@ -8,9 +8,9 @@ You can view the live demo of the website at [HJCinco Foundation SCSS](https://h
 
 ## Table of Contents
 
-- Features (#features)
-- Technologies Used (#technologies-used)
-- [Installation(#installation)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
