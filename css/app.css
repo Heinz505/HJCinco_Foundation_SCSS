@@ -26,14 +26,15 @@
 }
 
 .menu-icon {
-  background: none;
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url('img/Group 3.svg'); /* Add your hamburger icon */
-  background-size: contain;
-  background-repeat: no-repeat;
-  cursor: pointer;
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-image: url('img/Group 3.svg');
+    /* Add your hamburger icon */
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .get-started-container {
@@ -95,11 +96,11 @@
     /* Font size */
 }
 
-.hide-for-medium .cart-icon{
+.hide-for-medium .cart-icon {
     margin: 10px 0;
 }
 
-.hide-for-medium .get-started{
+.hide-for-medium .get-started {
     line-height: 24px;
 }
 
@@ -166,7 +167,7 @@
     font-size: 1.2rem;
 }
 
-.review-stars img{
+.review-stars img {
     margin-bottom: 0;
 }
 
@@ -225,19 +226,19 @@
 
 
 @media screen and (max-width: 1400px) {
-    .hero-section .cell.medium-4:last-child img{
+    .hero-section .cell.medium-4:last-child img {
         right: 5vw;
     }
 }
 
 @media screen and (max-width: 1300px) {
-    .hero-section .cell.medium-4:last-child img{
+    .hero-section .cell.medium-4:last-child img {
         right: 3vw;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .hero-section .cell.medium-4:last-child img{
+    .hero-section .cell.medium-4:last-child img {
         right: 1vw;
     }
 }
@@ -246,14 +247,22 @@
 @media screen and (max-width: 1000px) {
     .hero-section .cell.medium-4:last-child {
         position: static;
+        display: flex;
     }
 
     .hero-section .cell.medium-4:last-child img {
-        right: 2vw;
+        width: 40vw;
+        max-width: none;
+        margin: 0 auto;
+        margin-bottom: 2rem;
     }
 
     .hero-section .grid-x {
         flex-direction: column;
+    }
+
+    .hero-section .cell.medium-8 {
+        padding-bottom: 0;
     }
 }
 
@@ -269,5 +278,3 @@
         margin-top: 1rem;
     }
 }
-
-
