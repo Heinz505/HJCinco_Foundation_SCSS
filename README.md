@@ -53,7 +53,7 @@ sass --watch scss/app.scss:css/app.css
 To run the website, you can simply open the index.html file in your browser.
 
 ## Folder Structure
-
+```
 /HJCinco_Foundation_SCSS
 │ 
 ├── /css             # Compiled CSS files 
@@ -61,7 +61,7 @@ To run the website, you can simply open the index.html file in your browser.
 │   └── app.scss     # Main SCSS file 
 │ 
 └── index.html       # Main HTML file 
-
+```
 ## Contributing
 
 Contributions are welcome! To contribute to this project, please follow these steps:
