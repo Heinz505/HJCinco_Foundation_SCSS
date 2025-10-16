@@ -1062,4 +1062,157 @@
   flex-direction: row-reverse;
 }
 
+/* Responsive adjustments */
+@media screen and (max-width: 900px) {
+  .product-lineup-header {
+    font-size: 40px;
+  }
+  .product-name {
+    font-size: 32px;
+  }
+  .product-img {
+    width: 90vw;
+    max-width: 320px;
+  }
+  .product-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .product-desc-col,
+  .product-img-col {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.reviews-header {
+  color: rgb(255, 186, 0);
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.reviews-row {
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.review-card {
+  width: 378px;
+  border-radius: 39px;
+  background-color: rgb(239, 247, 250);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+
+.reviews-row .review-stars {
+  width: 120px;
+  height: 24px;
+  margin-bottom: 16px;
+}
+
+.review-card .review-text {
+  color: #222430;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.reviewer-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.reviewer-img {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewer-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.reviewer-initials {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: rgb(46, 48, 46);
+  font-family: CircularStd-Medium, "Roboto Mono", monospace;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: medium;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.reviewer-name {
+  color: rgb(0, 38, 87);
+  font-family: Inter-SemiBold, Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: semibold;
+  letter-spacing: -0.09px;
+  margin-bottom: 4px;
+}
+
+.reviewer-title {
+  opacity: 0.7;
+  color: rgb(67, 76, 108);
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 900px) {
+  .product-lineup-header {
+    font-size: 40px;
+  }
+  .product-name {
+    font-size: 32px;
+  }
+  .product-img {
+    width: 90vw;
+    max-width: 320px;
+  }
+  .review-card {
+    width: 90vw;
+    max-width: 378px;
+  }
+  .reviews-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
 /*# sourceMappingURL=app.css.map */
