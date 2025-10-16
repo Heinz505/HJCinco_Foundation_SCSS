@@ -1,0 +1,10 @@
+.alert-bar {
+    color: rgba(34, 36, 48, 1);
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: bold;
+    letter-spacing: 0.33px;
+    text-transform: uppercase;
+    background-color: #FFBA00;
+}
