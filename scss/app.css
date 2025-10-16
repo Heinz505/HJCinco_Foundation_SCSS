@@ -1378,4 +1378,123 @@
     margin-bottom: 32px;
   }
 }
+.follow-through-section {
+  background: rgb(239, 247, 250);
+  padding: 80px 0;
+}
+
+.follow-through-left {
+  max-width: 470px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.follow-through-top-text {
+  color: #434C6C;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.follow-through-header {
+  color: rgb(46, 48, 46);
+  font-family: Inter-Black, Inter, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  font-style: black;
+  letter-spacing: -0.83px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.follow-through-desc {
+  color: rgb(46, 48, 46);
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.follow-through-checklist {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 32px;
+  margin-left: 0;
+}
+
+.follow-through-checklist li {
+  color: #434C6C;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.follow-through-checklist li:not(:last-child) {
+  border-bottom: 2px solid rgba(29, 60, 52, 0.1);
+  opacity: 1;
+}
+
+.follow-through-checklist img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.follow-through-cart-row {
+  margin-top: 24px;
+}
+
+.follow-through-add-to-cart-btn {
+  width: 380px;
+  height: 65px;
+  background-color: rgb(34, 36, 48);
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 32.5px;
+  line-height: 65px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.follow-through-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-through-image {
+  width: 606.97px;
+  height: 512.68px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(32, 55, 70, 0.08);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 900px) {
+  .follow-through-left {
+    max-width: 90vw;
+  }
+  .follow-through-add-to-cart-btn {
+    width: 90vw;
+    min-width: 220px;
+    max-width: 380px;
+  }
+  .follow-through-image {
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+  }
+}
 /*# sourceMappingURL=app.css.map */
