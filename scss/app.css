@@ -1,7 +1,11 @@
-@import 'node_modules/foundation-sites/scss/foundation';
-
+/**
+ * Foundation for Sites
+ * Version 6.9.0
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
 .alert-bar {
-  color: rgba(34, 36, 48, 1);
+  color: rgb(34, 36, 48);
   font-family: "Roboto Mono", monospace;
   font-size: 12px;
   font-weight: 700;
@@ -53,7 +57,7 @@
   height: 46px;
   border-radius: 35px;
   font-family: "Roboto Mono", monospace;
-  background-color: rgba(34, 36, 48, 1);
+  background-color: rgb(34, 36, 48);
   color: white;
   /* Text color */
   text-align: center;
@@ -109,7 +113,7 @@
   min-height: 500px;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(232deg, rgba(70, 78, 112, 1) 0%, rgba(32, 55, 70, 1) 100%);
+  background-image: linear-gradient(232deg, rgb(70, 78, 112) 0%, rgb(32, 55, 70) 100%);
 }
 
 .hero-section .grid-container {
@@ -127,7 +131,7 @@
 
 .hero-title {
   max-width: 670px;
-  color: rgba(255, 250, 246, 1);
+  color: rgb(255, 250, 246);
   font-family: Inter;
   font-size: 64px;
   font-weight: 900;
@@ -141,7 +145,7 @@
   width: 412px;
   height: 34px;
   margin: 15px 0;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
   font-family: "Roboto Mono";
   font-size: 18px;
   font-weight: 400;
@@ -152,7 +156,7 @@
   width: 314px;
   height: 56px;
   border-radius: 35px;
-  background-color: rgba(255, 186, 0, 1);
+  background-color: rgb(255, 186, 0);
   color: #203746;
 }
 
@@ -173,7 +177,7 @@
 .review-text {
   height: 100%;
   max-width: 400px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
   font-family: "Roboto Mono";
   font-size: 18px;
   font-weight: 400;
@@ -182,7 +186,7 @@
 
 .reviewer {
   height: 24px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
   font-family: "Roboto Mono";
   font-size: 14px;
   font-weight: 700;
@@ -217,7 +221,8 @@
   width: 200%;
   max-width: 600px;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
   margin-left: auto;
 }
@@ -268,12 +273,12 @@
 }
 /* Content Section Styles */
 .content-section {
-  background: rgba(239, 247, 250, 1);
+  background: rgb(239, 247, 250);
   padding: 60px 0;
 }
 
 .content-section .body-top-btn {
-  background-color: rgba(255, 186, 0, 1);
+  background-color: rgb(255, 186, 0);
   color: #203746;
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
@@ -289,7 +294,7 @@
 .content-section .feature-header {
   font-family: Inter, sans-serif;
   font-weight: 900;
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   margin-bottom: 0.5rem;
   line-height: 80px;
   font-size: 80px;
@@ -337,7 +342,7 @@
   margin-bottom: 2rem;
   padding: 2rem;
   border-radius: 52px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
 }
 
 .content-section .qa-image {
@@ -360,7 +365,7 @@
 
 .instructions-subheader {
   font-size: 18px;
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: "Roboto Mono", monospace;
   margin-bottom: 1rem;
 }
@@ -397,7 +402,8 @@
   width: 332.6px;
   height: 480px;
   border-radius: 50px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .step-number {
@@ -439,7 +445,8 @@
 .step-product-image {
   max-width: 80px;
   max-height: 120px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .step-text {
@@ -481,7 +488,7 @@
 /* Results Divider */
 .results-divider-line {
   height: 0;
-  border-top: 1.5px solid rgba(70, 79, 110, 1);
+  border-top: 1.5px solid rgb(70, 79, 110);
   opacity: 0.2;
   position: relative;
   margin-bottom: 80px;
@@ -490,7 +497,7 @@
 
 /* Results Header */
 .results-header {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -507,7 +514,7 @@
   width: 702px;
   height: 153px;
   margin: 0 auto 40px auto;
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -523,7 +530,7 @@
 .results-image-container {
   position: relative;
   margin: 0 auto 40px auto;
-  border: 1px solid rgba(151, 151, 151, 1);
+  border: 1px solid rgb(151, 151, 151);
   overflow: hidden;
   padding: 0;
   box-sizing: border-box;
@@ -535,7 +542,8 @@
   width: 100vw;
   height: auto;
   display: block;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .results-image-quote {
@@ -544,7 +552,7 @@
   right: 7vw;
   width: 40vw;
   height: 156px;
-  color: rgba(239, 247, 250, 1);
+  color: rgb(239, 247, 250);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 4vw;
   font-weight: 900;
@@ -564,7 +572,7 @@
 
 .results-marquee {
   height: 19px;
-  color: rgba(67, 76, 108, 1);
+  color: rgb(67, 76, 108);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 20px;
   font-weight: 900;
@@ -623,12 +631,12 @@
   }
 }
 .benefits-section {
-  background: rgba(239, 247, 250, 1);
+  background: rgb(239, 247, 250);
   padding: 80px 0;
 }
 
 .benefits-header {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -640,7 +648,7 @@
 }
 
 .benefits-subheader {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -660,13 +668,14 @@
   height: 364px;
   border-radius: 19px;
   background-color: #fff;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-bottom: 24px;
   box-shadow: 0 4px 24px rgba(32, 55, 70, 0.08);
 }
 
 .benefit-title {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 23px;
   font-weight: 900;
@@ -677,7 +686,7 @@
 }
 
 .benefit-desc {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: "Roboto Mono", monospace;
   font-size: 15px;
   font-weight: 400;
@@ -695,8 +704,8 @@
 }
 .buy-now-section-bordered {
   background: #fff;
-  border-top: 2px solid rgba(46, 48, 46, 1);
-  border-bottom: 2px solid rgba(46, 48, 46, 1);
+  border-top: 2px solid rgb(46, 48, 46);
+  border-bottom: 2px solid rgb(46, 48, 46);
 }
 
 .buy-now-section {
@@ -714,8 +723,8 @@
   width: 324px;
   height: 37px;
   border-radius: 28.5px;
-  background-color: rgba(255, 186, 0, 1);
-  color: rgba(46, 48, 46, 1);
+  background-color: rgb(255, 186, 0);
+  color: rgb(46, 48, 46);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -726,7 +735,7 @@
 }
 
 .buy-now-header {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -738,7 +747,7 @@
 }
 
 .buy-now-desc {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -749,7 +758,7 @@
 .buy-now-divider {
   width: 419px;
   height: 2px;
-  border-top: 2px solid rgba(29, 60, 52, 1);
+  border-top: 2px solid rgb(29, 60, 52);
   opacity: 0.1;
   margin: 24px 0;
 }
@@ -761,7 +770,7 @@
 }
 
 .buy-now-checklist li {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -786,7 +795,7 @@
 .add-to-cart-btn {
   width: 380px;
   height: 65px;
-  background-color: rgba(34, 36, 48, 1);
+  background-color: rgb(34, 36, 48);
   color: #fff;
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
@@ -818,7 +827,8 @@
 .buy-now-image {
   width: 606.97px;
   height: 512.68px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /* Responsive adjustments */
@@ -843,12 +853,12 @@
   }
 }
 .ingredients-section {
-  background: rgba(239, 247, 250, 1);
+  background: rgb(239, 247, 250);
   padding: 80px 0;
 }
 
 .ingredients-header {
-  color: rgba(46, 48, 46, 1);
+  color: rgb(46, 48, 46);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -866,8 +876,8 @@
   width: 314px;
   height: 56px;
   border-radius: 35px;
-  background-color: rgba(255, 186, 0, 1);
-  color: rgba(46, 48, 46, 1);
+  background-color: rgb(255, 186, 0);
+  color: rgb(46, 48, 46);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -894,7 +904,8 @@
   width: 132px;
   height: 132px;
   border-radius: 19px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-right: 24px;
   background: #fff;
   box-shadow: 0 4px 24px rgba(32, 55, 70, 0.08);
@@ -908,7 +919,7 @@
 }
 
 .ingredient-name {
-  color: rgba(67, 76, 108, 1);
+  color: rgb(67, 76, 108);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -917,7 +928,7 @@
 
 .ingredient-desc {
   opacity: 0.6;
-  color: rgba(67, 76, 108, 1);
+  color: rgb(67, 76, 108);
   font-family: AberMono-Bold, "Roboto Mono", monospace;
   font-size: 12px;
   font-weight: 700;
@@ -946,4 +957,109 @@
   padding: 80px 0;
 }
 
-/*# sourceMappingURL=app.scss.map */
+/* Responsive adjustments */
+@media screen and (max-width: 900px) {
+  .ingredient-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ingredient-image {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .ingredients-btn {
+    width: 90vw;
+    min-width: 180px;
+    max-width: 314px;
+  }
+}
+.product-lineup-section {
+  background: #222430;
+  padding: 80px 0;
+}
+
+.product-lineup-btn {
+  width: 256px;
+  height: 38px;
+  border-radius: 28.5px;
+  background-color: rgb(255, 186, 0);
+  color: rgb(46, 48, 46);
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 36px;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.product-lineup-header {
+  color: rgb(255, 250, 246);
+  font-family: Inter-Black, Inter, sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  font-style: black;
+  letter-spacing: -1.33px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.product-lineup-subheader {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+.product-row {
+  margin: 55px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-desc-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.product-name {
+  color: rgb(255, 250, 246);
+  font-family: Inter-Black, Inter, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  font-style: black;
+  letter-spacing: -0.83px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  width: 50%;
+}
+
+.product-desc {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.product-img-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 19px;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/*# sourceMappingURL=app.css.map */

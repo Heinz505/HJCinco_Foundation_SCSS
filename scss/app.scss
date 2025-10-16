@@ -1,11 +1,7 @@
-/**
- * Foundation for Sites
- * Version 6.9.0
- * https://get.foundation
- * Licensed under MIT Open Source
- */
+@import '../node_modules/foundation-sites/scss/foundation';
+
 .alert-bar {
-  color: rgb(34, 36, 48);
+  color: rgba(34, 36, 48, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 12px;
   font-weight: 700;
@@ -57,7 +53,7 @@
   height: 46px;
   border-radius: 35px;
   font-family: "Roboto Mono", monospace;
-  background-color: rgb(34, 36, 48);
+  background-color: rgba(34, 36, 48, 1);
   color: white;
   /* Text color */
   text-align: center;
@@ -113,7 +109,7 @@
   min-height: 500px;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(232deg, rgb(70, 78, 112) 0%, rgb(32, 55, 70) 100%);
+  background-image: linear-gradient(232deg, rgba(70, 78, 112, 1) 0%, rgba(32, 55, 70, 1) 100%);
 }
 
 .hero-section .grid-container {
@@ -131,7 +127,7 @@
 
 .hero-title {
   max-width: 670px;
-  color: rgb(255, 250, 246);
+  color: rgba(255, 250, 246, 1);
   font-family: Inter;
   font-size: 64px;
   font-weight: 900;
@@ -145,7 +141,7 @@
   width: 412px;
   height: 34px;
   margin: 15px 0;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 1);
   font-family: "Roboto Mono";
   font-size: 18px;
   font-weight: 400;
@@ -156,7 +152,7 @@
   width: 314px;
   height: 56px;
   border-radius: 35px;
-  background-color: rgb(255, 186, 0);
+  background-color: rgba(255, 186, 0, 1);
   color: #203746;
 }
 
@@ -177,7 +173,7 @@
 .review-text {
   height: 100%;
   max-width: 400px;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 1);
   font-family: "Roboto Mono";
   font-size: 18px;
   font-weight: 400;
@@ -186,7 +182,7 @@
 
 .reviewer {
   height: 24px;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 1);
   font-family: "Roboto Mono";
   font-size: 14px;
   font-weight: 700;
@@ -272,12 +268,12 @@
 }
 /* Content Section Styles */
 .content-section {
-  background: rgb(239, 247, 250);
+  background: rgba(239, 247, 250, 1);
   padding: 60px 0;
 }
 
 .content-section .body-top-btn {
-  background-color: rgb(255, 186, 0);
+  background-color: rgba(255, 186, 0, 1);
   color: #203746;
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
@@ -293,7 +289,7 @@
 .content-section .feature-header {
   font-family: Inter, sans-serif;
   font-weight: 900;
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   margin-bottom: 0.5rem;
   line-height: 80px;
   font-size: 80px;
@@ -341,7 +337,7 @@
   margin-bottom: 2rem;
   padding: 2rem;
   border-radius: 52px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .content-section .qa-image {
@@ -364,7 +360,7 @@
 
 .instructions-subheader {
   font-size: 18px;
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   margin-bottom: 1rem;
 }
@@ -485,7 +481,7 @@
 /* Results Divider */
 .results-divider-line {
   height: 0;
-  border-top: 1.5px solid rgb(70, 79, 110);
+  border-top: 1.5px solid rgba(70, 79, 110, 1);
   opacity: 0.2;
   position: relative;
   margin-bottom: 80px;
@@ -494,7 +490,7 @@
 
 /* Results Header */
 .results-header {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -511,7 +507,7 @@
   width: 702px;
   height: 153px;
   margin: 0 auto 40px auto;
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -527,7 +523,7 @@
 .results-image-container {
   position: relative;
   margin: 0 auto 40px auto;
-  border: 1px solid rgb(151, 151, 151);
+  border: 1px solid rgba(151, 151, 151, 1);
   overflow: hidden;
   padding: 0;
   box-sizing: border-box;
@@ -548,7 +544,7 @@
   right: 7vw;
   width: 40vw;
   height: 156px;
-  color: rgb(239, 247, 250);
+  color: rgba(239, 247, 250, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 4vw;
   font-weight: 900;
@@ -568,7 +564,7 @@
 
 .results-marquee {
   height: 19px;
-  color: rgb(67, 76, 108);
+  color: rgba(67, 76, 108, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 20px;
   font-weight: 900;
@@ -627,12 +623,12 @@
   }
 }
 .benefits-section {
-  background: rgb(239, 247, 250);
+  background: rgba(239, 247, 250, 1);
   padding: 80px 0;
 }
 
 .benefits-header {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -644,7 +640,7 @@
 }
 
 .benefits-subheader {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -670,7 +666,7 @@
 }
 
 .benefit-title {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 23px;
   font-weight: 900;
@@ -681,7 +677,7 @@
 }
 
 .benefit-desc {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 15px;
   font-weight: 400;
@@ -699,8 +695,8 @@
 }
 .buy-now-section-bordered {
   background: #fff;
-  border-top: 2px solid rgb(46, 48, 46);
-  border-bottom: 2px solid rgb(46, 48, 46);
+  border-top: 2px solid rgba(46, 48, 46, 1);
+  border-bottom: 2px solid rgba(46, 48, 46, 1);
 }
 
 .buy-now-section {
@@ -718,8 +714,8 @@
   width: 324px;
   height: 37px;
   border-radius: 28.5px;
-  background-color: rgb(255, 186, 0);
-  color: rgb(46, 48, 46);
+  background-color: rgba(255, 186, 0, 1);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -730,7 +726,7 @@
 }
 
 .buy-now-header {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -742,7 +738,7 @@
 }
 
 .buy-now-desc {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -753,7 +749,7 @@
 .buy-now-divider {
   width: 419px;
   height: 2px;
-  border-top: 2px solid rgb(29, 60, 52);
+  border-top: 2px solid rgba(29, 60, 52, 1);
   opacity: 0.1;
   margin: 24px 0;
 }
@@ -765,7 +761,7 @@
 }
 
 .buy-now-checklist li {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -790,7 +786,7 @@
 .add-to-cart-btn {
   width: 380px;
   height: 65px;
-  background-color: rgb(34, 36, 48);
+  background-color: rgba(34, 36, 48, 1);
   color: #fff;
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
@@ -847,12 +843,12 @@
   }
 }
 .ingredients-section {
-  background: rgb(239, 247, 250);
+  background: rgba(239, 247, 250, 1);
   padding: 80px 0;
 }
 
 .ingredients-header {
-  color: rgb(46, 48, 46);
+  color: rgba(46, 48, 46, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -870,8 +866,8 @@
   width: 314px;
   height: 56px;
   border-radius: 35px;
-  background-color: rgb(255, 186, 0);
-  color: rgb(46, 48, 46);
+  background-color: rgba(255, 186, 0, 1);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -912,7 +908,7 @@
 }
 
 .ingredient-name {
-  color: rgb(67, 76, 108);
+  color: rgba(67, 76, 108, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -921,7 +917,7 @@
 
 .ingredient-desc {
   opacity: 0.6;
-  color: rgb(67, 76, 108);
+  color: rgba(67, 76, 108, 1);
   font-family: AberMono-Bold, "Roboto Mono", monospace;
   font-size: 12px;
   font-weight: 700;
@@ -975,8 +971,8 @@
   width: 256px;
   height: 38px;
   border-radius: 28.5px;
-  background-color: rgb(255, 186, 0);
-  color: rgb(46, 48, 46);
+  background-color: rgba(255, 186, 0, 1);
+  color: rgba(46, 48, 46, 1);
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
   font-weight: 400;
@@ -987,7 +983,7 @@
 }
 
 .product-lineup-header {
-  color: rgb(255, 250, 246);
+  color: rgba(255, 250, 246, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 80px;
   font-weight: 900;
@@ -1020,7 +1016,7 @@
 }
 
 .product-name {
-  color: rgb(255, 250, 246);
+  color: rgba(255, 250, 246, 1);
   font-family: Inter-Black, Inter, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -1057,4 +1053,6 @@
 
 
 
-/*# sourceMappingURL=app.css.map */
+
+
+/*# sourceMappingURL=app.scss.map */
