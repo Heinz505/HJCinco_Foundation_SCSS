@@ -719,3 +719,279 @@
     text-align: left;
 
 }
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .benefit-image {
+        width: 90vw;
+        height: auto;
+        max-width: 364px;
+    }
+}
+
+
+.buy-now-section-bordered {
+    background: #fff;
+    border-top: 2px solid rgba(46, 48, 46, 1);
+    border-bottom: 2px solid rgba(46, 48, 46, 1);
+}
+
+.buy-now-section {
+    padding: 80px 0;
+}
+
+.buy-now-left {
+    max-width: 470px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.buy-now-btn {
+    display: block;
+    width: 324px;
+    height: 37px;
+    border-radius: 28.5px;
+    background-color: rgba(255, 186, 0, 1);
+    color: rgba(46, 48, 46, 1);
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 32px;
+    line-height: 37px;
+    margin-left: 0;
+}
+
+.buy-now-header {
+    color: rgba(46, 48, 46, 1);
+    font-family: Inter-Black, Inter, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: black;
+    letter-spacing: -0.83px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-left: 0;
+}
+
+.buy-now-desc {
+    color: rgba(46, 48, 46, 1);
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    margin-left: 0;
+}
+
+.buy-now-divider {
+    width: 419px;
+    height: 2px;
+    border-top: 2px solid rgba(29, 60, 52, 1);
+    opacity: 0.1;
+    margin: 24px 0;
+}
+
+.buy-now-checklist {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+.buy-now-checklist li {
+    color: rgba(46, 48, 46, 1);
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.buy-now-checklist img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.buy-now-cart-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.add-to-cart-btn {
+    width: 380px;
+    height: 65px;
+    background-color: rgba(34, 36, 48, 1);
+    color: #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 32.5px;
+    line-height: 65px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.streaked-price {
+    color: #bbb;
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+.buy-now-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-now-image {
+    width: 606.97px;
+    height: 512.68px;
+    object-fit: contain;
+
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 900px) {
+    .buy-now-left {
+        max-width: 90vw;
+    }
+
+    .buy-now-btn,
+    .add-to-cart-btn {
+        width: 90vw;
+        min-width: 220px;
+        max-width: 324px;
+    }
+
+    .buy-now-divider {
+        width: 90vw;
+        max-width: 419px;
+    }
+
+    .buy-now-image {
+        width: 90vw;
+        max-width: 400px;
+        height: auto;
+    }
+}
+
+
+.ingredients-section {
+    background: rgba(239, 247, 250, 1);
+    padding: 80px 0;
+}
+
+.ingredients-header {
+    color: rgba(46, 48, 46, 1);
+    font-family: Inter-Black, Inter, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: black;
+    letter-spacing: -0.83px;
+    text-transform: uppercase;
+    text-align: left;
+
+    margin-left: 0;
+
+    margin-bottom: 32px;
+    line-height: 1.1;
+}
+
+.ingredients-btn {
+    display: inline-block;
+    width: 314px;
+    height: 56px;
+    border-radius: 35px;
+    background-color: rgba(255, 186, 0, 1);
+    color: rgba(46, 48, 46, 1);
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 56px;
+
+    margin-bottom: 48px;
+}
+
+.ingredients-grid {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ingredient-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ingredient-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 19px;
+    object-fit: cover;
+    margin-right: 24px;
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(32, 55, 70, 0.08);
+}
+
+.ingredient-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 132px;
+}
+
+.ingredient-name {
+    color: rgba(67, 76, 108, 1);
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.ingredient-desc {
+    opacity: 0.6;
+    color: rgba(67, 76, 108, 1);
+    font-family: AberMono-Bold, "Roboto Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 900px) {
+    .ingredient-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ingredient-image {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .ingredients-btn {
+        width: 90vw;
+        min-width: 180px;
+        max-width: 314px;
+    }
+}
+
+.product-lineup-section {
+    background: #222430;
+    padding: 80px 0;
+}
